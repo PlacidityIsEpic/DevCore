@@ -1,7 +1,53 @@
+@font-face {
+  font-family: Segoe;
+  src: url(Segoe.ttf);
+}
+
 body{
   background-color: #2b2b2b;
+  margin: 0px;
+}
+
+main{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .dc-text{
+  letter-spacing: 0.3px;
+  font-family: Segoe;
+  color: white; 
+}
+
+.nav ul{
+  border-radius: 0px;
+  list-style-type: none;
+  margin: 0px;
+  background-color: #232323;
+  overflow: hidden;
+}
+
+.nav li{
+  float: left;
+}
+
+.nav a{
   color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.nav a:hover{
+  /* background-color: #2b2b2b; */
+  animation-name: item-hover;
+  animation-duration: 1s;
+}
+
+@keyframes item-hover {
+  50% {
+    color: rgb(255, 102, 102);
+    text-shadow: 0px, 0px, 10, rgb(255, 102, 102);
+  }
 }
