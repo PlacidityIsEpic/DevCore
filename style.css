@@ -13,6 +13,10 @@ main{
   margin-right: 20px;
 }
 
+#post{
+  background-color: #232323;
+}
+
 .dc-text{
   letter-spacing: 0.3px;
   font-family: Segoe;
