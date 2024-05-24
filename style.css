@@ -41,7 +41,6 @@ main{
 
 .nav a:hover{
   animation-name: item-hover;
-  animation: animate 1s ease-out infinite;
   animation-duration: 1s;
 }
 
@@ -50,8 +49,4 @@ main{
     color: rgb(255, 102, 102);
     text-shadow: 0px, 0px, 10, rgb(255, 102, 102);
   }
-}
-
-@keyframes title-down {
-  to{transform: translateY(300%);}
 }
