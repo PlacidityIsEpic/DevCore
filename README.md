@@ -1,4 +1,4 @@
-<h1><a href="https://placidityisepic.github.io/DevCore/index.html">DevCore</a></h1>
+<h1><a href="https://placidityisepic.github.io/DevCore/landing.html">DevCore</a></h1>
 
 Current Version: Alpha 1.0  
 Current State: Alpha
